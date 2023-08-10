@@ -1,4 +1,6 @@
 # POO em Typescript
 
-- Aula - Revisão de FUP [fup](aulas/fup.md)
-- Aula - Configuração de Ambiente [config](aulas/config.md)
+- Aula 00 - Configuração de Ambiente [config](aulas/config.md)
+- Aula 01 - Revisão de FUP
+  - [conteúdo](aulas/fup.md)
+  - [questões](aulas/fup-questoes.md)

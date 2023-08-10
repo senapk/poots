@@ -15,7 +15,7 @@
 - [Boas práticas](#boas-práticas)
 - [Conversão de tipos](#conversão-de-tipos)
 - [if e ternário](#if-e-ternário)
-- [While](#while)
+- [while](#while)
 - [for](#for)
 <!-- toc -->
 
@@ -419,7 +419,7 @@ No exemplo acima, se `idade >= 18` for verdadeiro, a expressão retorna `"Maior 
 
 Lembre-se de que tanto o `if` quanto o operador ternário podem ser usados no TypeScript para controlar o fluxo condicional em seu código. Escolha aquele que melhor se adapte à legibilidade e à lógica do seu código específico.
 
-## While
+## while
 
 A sintaxe do `while` em TypeScript é a mesma que em JavaScript, já que o TypeScript é uma superset da linguagem. Aqui está a sintaxe do `while`, bem como uma explicação sobre como funcionam os comandos `break` e `continue` dentro de um loop `while`:
 

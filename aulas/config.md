@@ -1,17 +1,28 @@
 # Configuração
 
-## Ferramentas Necessárias: vscode, bash, node
+<!-- toc -->
+- [Entendendo as Ferramentas](#entendendo-as-ferramentas)
+- [Instalando](#instalando)
+  - [Ubuntu, Debian, Mint](#ubuntu-debian-mint)
+  - [Arch Linux && Manjaro](#arch-linux--manjaro)
+  - [Windows](#windows)
+- [Rodando](#rodando)
+<!-- toc -->
 
-- vscode
-  - Entenda melhor seu vscode [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_vscode.md)
-  - Plugin
+## Entendendo as Ferramentas
+
+- vscode: a IDE onde você vai escrever seu código.
+  - Entendendo o vscode: [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_vscode.md)
+  - Plugin úteis
     - Error Lens
-  - Configuração:
+  - Configuração importante:
     - auto save: afterDelay
-- bash (linux) ou git bash (windows)
-  - Entenda melhor seu bash [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_bash_and_git_bash.md)
+- bash: o interpretador de comandos que você vai usar para executar seus programas.
+  - Entendendo o bash: [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_bash_and_git_bash.md)
 
-## Ubuntu, Debian, Mint
+## Instalando
+
+### Ubuntu, Debian, Mint
 
 Abra o terminal e digite
 
@@ -39,7 +50,7 @@ tsc -v
 ts-node -v
 ```
 
-## Arch Linux && Manjaro
+### Arch Linux && Manjaro
 
 ```bash
 # Instalar tudo
@@ -53,13 +64,13 @@ ts-node -v
 code -v
 ```
 
-## Windows
+### Windows
 
 - Instalar o [nodejs](https://nodejs.org/en/download/)
 - Instalar o [vscode](https://code.visualstudio.com/download)
 - Instalar o [Git for Windows](https://gitforwindows.org/)
 
-Abra o Git Bash
+Abra o Git Bash e insira esses comandos:
 
 ```bash
 # Verificar se o nodejs e npm estão instalados
@@ -73,3 +84,19 @@ npm install -g typescript ts-node
 tsc -v
 ts-node -v
 ```
+
+## Rodando
+
+- Abra o vscode
+  - Escolha Abrir Pasta, e abra a pasta onde você vai salvar seus projetos.
+- Crie um arquivo chamado `ola.ts` com o seguinte conteúdo:
+
+```typescript
+console.log("Olá Mundo");
+```
+
+- Abra o terminal (ctrl+shift+`)
+  - Selecione o terminal bash
+- Digite o comando `ts-node ola.ts`
+  - Se tudo deu certo, você deve ver a mensagem `Olá Mundo` no terminal.
+
