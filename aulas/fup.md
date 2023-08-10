@@ -31,14 +31,6 @@ Em TypeScript, tanto `let` quanto `var` são palavras-chave usadas para declarar
    - **let:** Variáveis declaradas com `let` não são elevadas (hoisted) para o topo do escopo. Isso significa que você não pode acessar uma variável `let` antes de sua declaração no código.
    - **var:** Variáveis declaradas com `var` são elevadas para o topo do escopo em que foram definidas. Isso permite que você as acesse antes de sua declaração no código, mas pode levar a comportamentos inesperados se não for cuidadoso.
 
-3. **Reatribuição no Mesmo Escopo:**
-   - **let:** Você pode reatribuir valores a uma variável declarada com `let` dentro do mesmo escopo sem problemas.
-   - **var:** Você também pode reatribuir valores a uma variável declarada com `var` dentro do mesmo escopo. No entanto, devido ao hoisting, isso pode levar a resultados inesperados, já que a variável pode ter sido inicializada em um ponto anterior do código.
-
-4. **Loop Closures:**
-   - **let:** O uso de `let` em um loop `for` cria um escopo novo para cada iteração do loop, o que é geralmente mais intuitivo e evita problemas comuns de closures.
-   - **var:** Usar `var` em um loop `for` pode levar a comportamentos inesperados devido ao escopo de função compartilhado. Isso pode causar problemas em closures dentro do loop.
-
 Em resumo, a preferência em TypeScript é usar `let` em vez de `var`, pois `let` é mais seguro em termos de escopo e ajuda a evitar erros sutis que podem ocorrer devido ao hoisting e ao escopo global compartilhado das variáveis `var`.
 
 ## Tipos
