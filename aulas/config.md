@@ -1,11 +1,15 @@
 # Configuração
 
-## Configurações sugeridas para o vscode
+## Ferramentas Necessárias: vscode, bash, node
 
-- Plugin
-  - Error Lens
-- Configuração:
-  - auto save: afterDelay
+- vscode
+  - Entenda melhor seu vscode [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_vscode.md)
+  - Plugin
+    - Error Lens
+  - Configuração:
+    - auto save: afterDelay
+- bash (linux) ou git bash (windows)
+  - Entenda melhor seu bash [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_bash_and_git_bash.md)
 
 ## Ubuntu, Debian, Mint
 
