@@ -1,3 +1,3 @@
 #!/bin/bash
-mdpp README.md
+mdpp Readme.md
 mdpp aulas/*

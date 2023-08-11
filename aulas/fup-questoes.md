@@ -1,5 +1,10 @@
 # Questões Aula 01
 
+<!-- toc -->
+- [Perguntas](#perguntas)
+- [Entrevista](#entrevista)
+<!-- toc -->
+
 ## Perguntas
 
 - O que é TypeScript e como ele se relaciona com o JavaScript?

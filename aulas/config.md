@@ -4,10 +4,11 @@
 - [vscode](#vscode)
 - [Bash](#bash)
 - [Instalando as ferramentas](#instalando-as-ferramentas)
-  - [Ubuntu, Debian, Mint](#ubuntu-debian-mint)
-  - [Arch Linux && Manjaro](#arch-linux--manjaro)
+  - [Debian Based: Ubuntu, Mint, etc](#debian-based-ubuntu-mint-etc)
+  - [Arch based && Manjaro](#arch-based--manjaro)
   - [Windows](#windows)
-- [Rodando](#rodando)
+- [Rodando projetos modo texto](#rodando-projetos-modo-texto)
+- [Configurando um projeto Typescript com P5](#configurando-um-projeto-typescript-com-p5)
 <!-- toc -->
 
 ## vscode
@@ -96,7 +97,7 @@ tsc -v
 ts-node -v
 ```
 
-## Rodando
+## Rodando projetos modo texto
 
 - Abra o vscode
   - Escolha Abrir Pasta, e abra a pasta onde você vai salvar seus projetos.
@@ -110,3 +111,7 @@ console.log("Olá Mundo");
   - Selecione o terminal bash
 - Digite o comando `ts-node ola.ts`
   - Se tudo deu certo, você deve ver a mensagem `Olá Mundo` no terminal.
+
+## Configurando um projeto Typescript com P5
+
+- Você pode seguir as instruções [aqui](https://github.com/senapk/p5ts)
