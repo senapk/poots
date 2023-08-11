@@ -1,28 +1,39 @@
 # Configuração
 
 <!-- toc -->
-- [Entendendo as Ferramentas](#entendendo-as-ferramentas)
-- [Instalando](#instalando)
+- [vscode](#vscode)
+- [Bash](#bash)
+- [Instalando as ferramentas](#instalando-as-ferramentas)
   - [Ubuntu, Debian, Mint](#ubuntu-debian-mint)
   - [Arch Linux && Manjaro](#arch-linux--manjaro)
   - [Windows](#windows)
 - [Rodando](#rodando)
 <!-- toc -->
 
-## Entendendo as Ferramentas
+## vscode
 
-- vscode: a IDE onde você vai escrever seu código.
-  - Entendendo o vscode: [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_vscode.md)
-  - Plugin úteis
+A IDE onde você vai escrever seu código.
+
+As instruções de instalação estão mais abaixo nos respectivos sistemas operacionais.
+
+- Entendendo o vscode: [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_vscode.md)
+- Plugin úteis
+  - Ver os erros ao lado do código
     - Error Lens
-  - Configuração importante:
-    - auto save: afterDelay
-- bash: o interpretador de comandos que você vai usar para executar seus programas.
-  - Entendendo o bash: [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_bash_and_git_bash.md)
+  - Escrever código markdown
+    - Markdown All in One
+    - markdownlint
+    - Markdown Preview Enhanced
 
-## Instalando
+## Bash
 
-### Ubuntu, Debian, Mint
+O interpretador de comandos que você vai usar para executar seus programas. Nos sistemas Linux e Mac, ele já vem instalado. No Windows, você precisa instalar o Git for Windows. O Windows já possui um interpretador de comandos, mas ele é muito limitado.
+
+- Entendendo o bash: [link](https://github.com/senapk/fupisfun/blob/master/wiki/configure_bash_and_git_bash.md)
+
+## Instalando as ferramentas
+
+### Debian Based: Ubuntu, Mint, etc
 
 Abra o terminal e digite
 
@@ -50,7 +61,7 @@ tsc -v
 ts-node -v
 ```
 
-### Arch Linux && Manjaro
+### Arch based && Manjaro
 
 ```bash
 # Instalar tudo
@@ -99,4 +110,3 @@ console.log("Olá Mundo");
   - Selecione o terminal bash
 - Digite o comando `ts-node ola.ts`
   - Se tudo deu certo, você deve ver a mensagem `Olá Mundo` no terminal.
-

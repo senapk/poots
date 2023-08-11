@@ -7,4 +7,3 @@
 - Aula 02 - Revisão do P5
   - [conteúdo](aulas/p5.md)
   - [questões](aulas/p5-questoes.md)
-
