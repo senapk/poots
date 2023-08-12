@@ -127,6 +127,26 @@ console.log("Olá Mundo");
 ## Configurando um projeto Typescript com P5
 
 - Você pode seguir as instruções [aqui](https://github.com/senapk/p5ts)
+- Ou seguir o guia rápido nos links abaixo:
+
+```bash
+
+# baixe o repositório
+git clone https://github.com/senapk/p5ts
+
+# entre na pasta
+cd p5ts
+
+# instale os módulos
+npm install
+
+# abra o vscode na pasta
+code .
+
+# dentro do terminal do vscode inicie o processo
+npm start
+
+```
 
 ## Para quem usa Arch
 

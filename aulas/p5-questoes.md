@@ -6,7 +6,6 @@
 - [Desafio](#desafio)
 <!-- toc -->
 
-
 ## Perguntas
 
 - Qual a diferença entre a função `setup` e a função `draw`?
