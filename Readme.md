@@ -1,6 +1,6 @@
 # POO em Typescript
 
-![desenho-de-gato-zumbi-gerar-ai_98402-8418](https://user-images.githubusercontent.com/4747652/261452036-939ab90c-3bd2-486a-ac57-3b56b9ac0593.jpg)
+![cover](https://user-images.githubusercontent.com/4747652/261453336-15fd08ae-bd69-4e17-b82b-d25f62887bee.jpg)
 
 - [Acordo de convivência](aulas/acordo.md)
 - Aula 00 - [Configuração de Ambiente](aulas/config.md)
