@@ -5,6 +5,7 @@
         "delay",
         "pacman",
         "save",
-        "snap"
+        "snap",
+        "while"
     ]
 }
