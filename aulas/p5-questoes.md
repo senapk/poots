@@ -33,5 +33,4 @@
 
 ## Resultado
 
-![resultado](
-https://user-images.githubusercontent.com/4747652/261316321-84f08bfa-8a1e-4186-8d1e-f6f9de72537a.mp4)
+[https://user-images.githubusercontent.com/4747652/261316321-84f08bfa-8a1e-4186-8d1e-f6f9de72537a.mp4](https://user-images.githubusercontent.com/4747652/261316321-84f08bfa-8a1e-4186-8d1e-f6f9de72537a.mp4)
