@@ -5,7 +5,10 @@
         "delay",
         "pacman",
         "save",
+        "shift",
         "snap",
+        "splice",
+        "unshift",
         "while"
     ]
 }

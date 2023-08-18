@@ -1,6 +1,6 @@
 # POO em Typescript
 
-![cover](https://user-images.githubusercontent.com/4747652/261453336-15fd08ae-bd69-4e17-b82b-d25f62887bee.jpg)
+![_](https://user-images.githubusercontent.com/4747652/261453336-15fd08ae-bd69-4e17-b82b-d25f62887bee.jpg)
 
 - [Acordo de convivência](aulas/acordo.md)
 - Aula 00 - [Configuração de Ambiente](aulas/config.md)
@@ -16,3 +16,7 @@
   - [leitura](aulas/classes-leitura.md)
   - [revisão](aulas/classes-revisao.md)
   - [prática](aulas/classes-pratica.md)
+- Aula 04 - Arrays
+  - [leitura](aulas/arrays-leitura.md)
+  - [revisão](aulas/arrays-revisao.md)
+  - [prática](aulas/arrays-pratica.md)
