@@ -20,3 +20,15 @@
   - [leitura](aulas/arrays-leitura.md)
   - [revisão](aulas/arrays-revisao.md)
   - [prática](aulas/arrays-pratica.md)
+- Aula 05 - Classes Aninhadas
+  - [leitura](aulas/vector2d-circulo-leitura.md)
+  - [prática](aulas/vector2d-circulo-pratica.md)
+- Aula 06 - Algoritmos em Vetores
+  - [leitura](aulas/algoritmos-vetores-leitura.md)
+  - [prática](aulas/algoritmos-vetores-pratica.md)
+- Aula 07 - Treinamento do 002 Busca && Apresentação do @054 Animal
+  - [leitura](aulas/busca-leitura.md)
+  - [prática](aulas/busca-pratica.md)
+- Aula 08 - Apresentação do @002 Carro && Prática do Pontos
+  - [leitura](aulas/circulos-colisao-leitura.md)
+  - [prática](aulas/circulos-colisao-pratica.md)
