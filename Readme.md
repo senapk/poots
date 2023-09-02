@@ -28,7 +28,7 @@
   - [prática](aulas/algoritmos-vetores-pratica.md)
 - Aula 07 - Treinamento do 002 Busca && Apresentação do @054 Animal
   - [leitura](aulas/busca-leitura.md)
-  - [prática](aulas/busca-pratica.md)
+  - [prática Carro](aulas/busca-pratica.md)
 - Aula 08 - Apresentação do @002 Carro && Prática do Pontos
   - [leitura](aulas/circulos-colisao-leitura.md)
-  - [prática](aulas/circulos-colisao-pratica.md)
+  - [prática Retangulo](aulas/circulos-colisao-pratica.md)
