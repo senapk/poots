@@ -3,7 +3,10 @@
 ![_](https://user-images.githubusercontent.com/4747652/261453336-15fd08ae-bd69-4e17-b82b-d25f62887bee.jpg)
 
 - [Acordo de convivência](aulas/acordo.md)
-- Aula 00 - [Configuração de Ambiente](aulas/config.md)
+- Aula 00 - Configuração de Ambiente
+  - [bash, node, vscode](aulas/config.md)
+  - [typescript](aulas/typescript.md)
+  - [tko e testes](aulas/tko.md)
 - Aula 01 - Revisão de FUP
   - [leitura](aulas/fup-leitura.md)
   - [revisão](aulas/fup-revisao.md)
