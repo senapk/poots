@@ -42,3 +42,19 @@ pip install tko
 # para habilitar a execução de scripts
 Set-ExecutionPolicy Unrestricted
 ```
+
+## Para testar
+
+- Abra o `powershell` ou o `bash` e digite:
+
+```bash
+
+# baixe o problem do carro em typescript
+tko down poo 002 ts
+
+# entre na pasta do problema
+cd poo_002
+
+# execute o problema
+tko run draft.ts cases.tio
+```
