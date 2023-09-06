@@ -19,4 +19,4 @@ A classe `Retangulo` deve ter os seguintes métodos:
 
 ## Resultado Esperado
 
-![resultado](https://user-images.githubusercontent.com/4747652/266047852-5d58bcef-fc82-49da-b887-b62f535e5e90.mp4)
+[resultado](https://user-images.githubusercontent.com/4747652/266047852-5d58bcef-fc82-49da-b887-b62f535e5e90.mp4)
