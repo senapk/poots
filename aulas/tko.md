@@ -39,6 +39,7 @@ npm install -g esbuild
 # para instalar o tko
 pip install tko
 
+# reabra o powershell como admin antes e dar o próximo comando
 # para habilitar a execução de scripts
 Set-ExecutionPolicy Unrestricted
 ```
