@@ -1,6 +1,11 @@
 # typescript
 
 <!-- toc -->
+- [ts: Windows](#ts-windows)
+- [ts: Debian](#ts-debian)
+- [Rodando projetos modo texto](#rodando-projetos-modo-texto)
+- [Configurando um projeto Typescript com P5](#configurando-um-projeto-typescript-com-p5)
+- [Para quem usa Arch](#para-quem-usa-arch)
 <!-- toc -->
 
 ## ts: Windows

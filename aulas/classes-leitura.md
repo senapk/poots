@@ -1,6 +1,9 @@
 # Classes Leitura
 
 <!-- toc -->
+- [Conceitos](#conceitos)
+- [Referências](#referências)
+- [Criando e utilizando classes](#criando-e-utilizando-classes)
 <!-- toc -->
 
 ## Conceitos
