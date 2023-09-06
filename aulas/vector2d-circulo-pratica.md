@@ -11,6 +11,12 @@ A classe `Retangulo` deve ter os seguintes métodos:
 - `contemPonto(ponto: Vector2d)`: retorna `true` se o ponto passado como parâmetro estiver dentro do retângulo e `false` caso contrário.
 - `desenhar()`: desenha o retângulo na tela.
 
-- Na main do seu programa, crie um retângulo na posição (100, 100) e com tamanho (50, 50). Desenhe o retângulo na tela.
-- Sempre que o mouse estiver dentro do retângulo, mude a cor do retângulo para vermelho. Caso contrário, mude a cor do retângulo para azul.
-- Sempre que o mouse estiver dentro do retângulo, diminua o tamanho do retângulo em 1 pixel, tanto em largura quanto em altura. Caso contrário, aumente o tamanho do retângulo em 1 pixel, tanto em largura quanto em altura.
+- No seu programa, crie um retângulo na posição (100, 100) e com tamanho (50, 50).
+- Desenhe o retângulo na tela.
+- Sempre que clicar com o mouse, mude a posição do retângulo para a posição do clique.
+- Sempre que o mouse estiver dentro do retângulo, mude a cor do retângulo para vermelho e diminua o tamanho em x e y em 1 pixel.
+- Sempre que o mouse estiver fora do retângulo, mude a cor do retângulo para azul e aumente o tamanho em x e y em 1 pixel.
+
+## Resultado Esperado
+
+![resultado](https://user-images.githubusercontent.com/4747652/266047852-5d58bcef-fc82-49da-b887-b62f535e5e90.mp4)
