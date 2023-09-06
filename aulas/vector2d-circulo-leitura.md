@@ -173,7 +173,7 @@ function draw() {
 
 ## Resultado
 
-![Video demonstration](https://user-images.githubusercontent.com/4747652/266043291-ebbc8b47-2d46-4c3a-adc9-29d2c04a4250.mp4)
+[Video demonstration](https://user-images.githubusercontent.com/4747652/266043291-ebbc8b47-2d46-4c3a-adc9-29d2c04a4250.mp4)
 
 ## Código final
 
