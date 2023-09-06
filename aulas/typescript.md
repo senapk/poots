@@ -5,7 +5,7 @@
 
 ## ts: Windows
 
-Abra o Git Bash e insira esses comandos:
+Abra o power Shell e insira esses comandos:
 
 ```bash
 # Verificar se o nodejs e npm estão instalados
@@ -15,7 +15,8 @@ npm -v
 # Instalar o typescript e ts-node
 npm install -g typescript ts-node esbuild
 
-# Habilitar a execução de scripts
+# feche e reabra o powershell como admin antes e dar o próximo comando
+# para habilitar a execução de scripts
 Set-ExecutionPolicy Unrestricted
 
 # Testando
