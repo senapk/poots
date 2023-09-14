@@ -1,6 +1,6 @@
 # Pratica - Círculos e Pontos Colidindo
 
-- Pegue o Retângulo que você criou na atividade [Pontos e Círculos](vector2d-circulo-pratica.md).
+- Pegue o Retângulo que você criou na atividade [Pontos e Círculos](vector2d_pratica.md
 
 Adapte o código do Circulo para funcionar com retângulos. Adicione ou mude algum comportamento que achar interessante.
 

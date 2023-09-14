@@ -7,7 +7,7 @@
 
 ## Explicação
 
-Vamos continuar o projeto das classes aninhadas. Se você ainda não leu, reveja explicação da atividade [desenho](vector2d-circulo-leitura.md) para entender melhor os detalhes da classe `Vector2d` e da classe `Circle`.
+Vamos continuar o projeto das classes aninhadas. Se você ainda não leu, reveja explicação da atividade [desenho](vector2d_leitura.md) para entender melhor os detalhes da classe `Vector2d` e da classe `Circle`.
 
 ```ts
 class V2d {

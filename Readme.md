@@ -8,47 +8,52 @@
   - [typescript](aulas/typescript.md)
   - [tko e testes](aulas/tko.md)
 - Aula 01 - Revisão de FUP
-  - [leitura](aulas/fup-leitura.md)
-  - [revisão](aulas/fup-revisao.md)
-  - [prática](aulas/fup-pratica.md)
+  - [leitura](aulas/fup_leitura.md)
+  - [revisão](aulas/fup_revisao.md)
+  - [prática](aulas/fup_pratica.md)
 - Aula 02 - Revisão do P5
-  - [leitura](aulas/p5-leitura.md)
-  - [revisão](aulas/p5-revisao.md)
-  - [prática](aulas/p5-pratica.md)
+  - [leitura](aulas/p5_leitura.md)
+  - [revisão](aulas/p5_revisao.md)
+  - [prática](aulas/p5_pratica.md)
 - Aula 03 - Classes e Objetos
-  - [leitura](aulas/classes-leitura.md)
-  - [revisão](aulas/classes-revisao.md)
-  - [prática](aulas/classes-pratica.md)
+  - [leitura](aulas/classes_leitura.md)
+  - [revisão](aulas/classes_revisao.md)
+  - [prática](aulas/classes_pratica.md)
 - Aula 04 - Arrays
-  - [leitura](aulas/arrays-leitura.md)
-  - [revisão](aulas/arrays-revisao.md)
-  - [prática](aulas/arrays-pratica.md)
+  - [leitura](aulas/arrays_leitura.md)
+  - [revisão](aulas/arrays_revisao.md)
+  - [prática](aulas/arrays_pratica.md)
 - Aula 05 - Classes Aninhadas
-  - [leitura - Mouse sobre círculo](aulas/vector2d-circulo-leitura.md)
-  - [códigos - Mouse sobre círculo](codigos/vector2d-circulo.ts)
-  - [prática - Mouse sobre retângulo](aulas/vector2d-circulo-pratica.md)
+  - [leitura - Mouse sobre círculo](aulas/vector2d_leitura.md)
+  - [códigos - Mouse sobre círculo](codigos/vector2d_circulo.ts)
+  - [prática - Mouse sobre retângulo](aulas/vector2d_pratica.md)
 - Aula 06 - Algoritmos em Vetores - Estressados Busca
   - Objetivos:
     - [ ] Mostrar o funcionamento do Moodle
     - [ ] Mostrar o @000 Estressados Busca
-  - [leitura](aulas/algoritmos-vetores-leitura.md)
-  - [prática](aulas/algoritmos-vetores-pratica.md)
+  - [leitura](aulas/algoritmos_vetores_leitura.md)
+  - [prática](aulas/algoritmos_vetores_pratica.md)
 - Aula 07 - Treinamento do 002 Busca
   - Objetivos:
     - [ ] Treinar o 002 Busca
     - [ ] Apresentar o @054 Animal
-  - [leitura - Animal](aulas/busca-leitura.md)
-  - [prática - Carro](aulas/busca-pratica.md)
+  - [leitura - Animal](aulas/busca_leitura.md)
+  - [prática - Carro](aulas/busca_pratica.md)
 - Aula 08 - Início do @002 Carro e Círculos em Colisão
   - Objetivos:
     - [ ] iniciar a implementação do @002 Carro
     - [ ] Fazer o código do Círculos em colisão
   - [leitura - Círculos em Colisão](aulas/circulos-colisao-leitura.md)
-  - [códigos - Círculos em Colisão](codigos/circulos-colisao.ts)
-  - [prática - Retângulos em Colisão](aulas/circulos-colisao-pratica.md)
+  - [códigos - Círculos em Colisão](codigos/circulos_colisao.ts)
+  - [prática - Retângulos em Colisão](aulas/circulos_colisao_pratica.md)
 - Aula 09 - @040  Estressados Contagem
   - Objetivos:
     - [ ] Apresentar o @040 Estressados Contagem
   - [leitura - Conteúdo em vídeo](https://www.youtube.com/watch?v=yEks2RnwgeA)
   - prática: treine os códigos do vídeo para avaliação
 - Aula 10 - Movimentando cenário
+  - Objetivos
+    - [ ] Fazer o código de movimentação do cenário
+  - [códigos - Movimentando cenário](codigos/movimentando_cenario.ts)
+  - [prática - Movimentando cenário](aulas/movimentando_cenario_pratica.md)
+  
