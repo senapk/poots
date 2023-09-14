@@ -1,5 +1,11 @@
 # Leitura - Classes Aninhadas
 
+## Resultado Final
+
+[Video demonstration](https://user-images.githubusercontent.com/4747652/266043291-ebbc8b47-2d46-4c3a-adc9-29d2c04a4250.mp4)
+
+## Introdução
+
 A criação de classes aninhadas é uma técnica que permite a criação de classes dentro de outras classes. Essa técnica é muito utilizada para criar classes que representam estruturas de dados complexas.
 
 Por exemplo, a class `Vector2d` representa um vetor bidimensional. Esse vetor pode ser utilizado para representar uma posição no espaço, uma velocidade, uma aceleração, uma força, etc.
@@ -169,76 +175,4 @@ function draw() {
     }
     circle(mouseX, mouseY, 10);
 }
-```
-
-## Resultado
-
-[Video demonstration](https://user-images.githubusercontent.com/4747652/266043291-ebbc8b47-2d46-4c3a-adc9-29d2c04a4250.mp4)
-
-## Código final
-
-```ts
-class Vector2d {
-    x: number;
-    y: number;
-    constructor(x: number, y: number) {
-        this.x = x; 
-        this.y = y;
-    }
-
-    dist(other: Vector2d) {
-        return dist(this.x, this.y, other.x, other.y);
-    }
-
-}
-
-class Circle {
-    center: Vector2d;
-    radius: number;
-
-    constructor(x: number, y: number, raio: number) {
-        this.center = new Vector2d(x, y);
-        this.radius = raio;
-    }
-
-    contains(pos: Vector2d) {
-        return pos.dist(this.center) < this.radius;
-    }
-
-    draw() {
-        circle(this.center.x, this.center.y, this.radius * 2);
-    }   
-}
-
-let ball: Circle = new Circle(0, 0, 50);
-
-function setup() {
-    createCanvas(400, 400);
-    frameRate(10);
-}
-
-function draw() {
-    background(0);
-    if (ball.contains(new Vector2d(mouseX, mouseY))) {
-        ball.radius -= 1;
-        fill("red");
-    } else {
-        fill("blue");
-        ball.radius += 1;
-    }
-    ball.draw();
-}
-
-function mouseClicked() {
-    ball.center = new Vector2d(mouseX, mouseY);
-}
-
-function keyPressed() {
-    if (key == "m") {
-        ball.radius += 10;
-    } else if (key == "n") {
-        ball.radius -= 10;
-    }
-}
-
 ```

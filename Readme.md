@@ -24,14 +24,31 @@
   - [revisão](aulas/arrays-revisao.md)
   - [prática](aulas/arrays-pratica.md)
 - Aula 05 - Classes Aninhadas
-  - [leitura](aulas/vector2d-circulo-leitura.md)
-  - [prática Retângulo](aulas/vector2d-circulo-pratica.md)
-- Aula 06 - Algoritmos em Vetores
+  - [leitura - Mouse sobre círculo](aulas/vector2d-circulo-leitura.md)
+  - [códigos - Mouse sobre círculo](codigos/vector2d-circulo.ts)
+  - [prática - Mouse sobre retângulo](aulas/vector2d-circulo-pratica.md)
+- Aula 06 - Algoritmos em Vetores - Estressados Busca
+  - Objetivos:
+    - [ ] Mostrar o funcionamento do Moodle
+    - [ ] Mostrar o @000 Estressados Busca
   - [leitura](aulas/algoritmos-vetores-leitura.md)
   - [prática](aulas/algoritmos-vetores-pratica.md)
-- Aula 07 - Treinamento do 002 Busca && Apresentação do @054 Animal
-  - [leitura](aulas/busca-leitura.md)
-  - [prática Carro](aulas/busca-pratica.md)
-- Aula 08 - Apresentação do @002 Carro && Prática do Pontos
-  - [leitura](aulas/circulos-colisao-leitura.md)
-  - [prática Retângulos em Colisão](aulas/circulos-colisao-pratica.md)
+- Aula 07 - Treinamento do 002 Busca
+  - Objetivos:
+    - [ ] Treinar o 002 Busca
+    - [ ] Apresentar o @054 Animal
+  - [leitura - Animal](aulas/busca-leitura.md)
+  - [prática - Carro](aulas/busca-pratica.md)
+- Aula 08 - Início do @002 Carro e Círculos em Colisão
+  - Objetivos:
+    - [ ] iniciar a implementação do @002 Carro
+    - [ ] Fazer o código do Círculos em colisão
+  - [leitura - Círculos em Colisão](aulas/circulos-colisao-leitura.md)
+  - [códigos - Círculos em Colisão](codigos/circulos-colisao.ts)
+  - [prática - Retângulos em Colisão](aulas/circulos-colisao-pratica.md)
+- Aula 09 - @040  Estressados Contagem
+  - Objetivos:
+    - [ ] Apresentar o @040 Estressados Contagem
+  - [leitura - Conteúdo em vídeo](https://www.youtube.com/watch?v=yEks2RnwgeA)
+  - prática: treine os códigos do vídeo para avaliação
+- Aula 10 - Movimentando cenário
