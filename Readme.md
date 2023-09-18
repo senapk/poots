@@ -55,5 +55,5 @@
   - Objetivos
     - [ ] Fazer o código de movimentação do cenário
   - [códigos - Movimentando cenário](codigos/movimentando_cenario.ts)
-  - [prática - Movimentando cenário](aulas/movimentando_cenario_pratica.md)
-  
+  - [prática - Comendo estrelas](aulas/movimentando_cenario_pratica.md)
+- Aula 11 - Refazendo @001 Calculadora em sala
