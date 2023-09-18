@@ -90,3 +90,9 @@ class Circle {
 - Crie uma entrada na função `keyPressed` para comer as estrelas com a tecla `c`.
 
 [LINK](https://user-images.githubusercontent.com/4747652/268654548-12b26527-1eb3-4be0-84e3-e55bf7620428.mp4)
+
+## Parte desafio
+
+Permita que o personagem ande pelo cenário, mas o impeça de andar ou crescer a ponto de ter mais de 10 estrelas dentro do círculo.
+
+[LINK](https://user-images.githubusercontent.com/4747652/268656415-54f78b11-cf80-4575-9de0-ee5460b4c73f.mp4)
