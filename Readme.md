@@ -56,4 +56,11 @@
     - [ ] Fazer o código de movimentação do cenário
   - [códigos - Movimentando cenário](codigos/movimentando_cenario.ts)
   - [prática - Comendo estrelas](aulas/movimentando_cenario_pratica.md)
-- Aula 11 - Refazendo @001 Calculadora em sala
+- Aula 11 - Refazendo Calculadora em sala
+- Aula 12 - Tamagotchi - prática em sala
+- Aula 13 - fazendo animações
+- Aula 14 - apresentado o ImageX
+  - [movendo setinhas](https://editor.p5js.org/sena.ufc/sketches/Xj8x9legN)
+  - [imagex](https://editor.p5js.org/sena.ufc/sketches/yjIx4jofg)
+  - [dino](https://editor.p5js.org/sena.ufc/sketches/BA8y0TLwX)
+- Aula 15 - fazendo a budega
