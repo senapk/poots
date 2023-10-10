@@ -1,14 +1,25 @@
 # Pratica - Círculos e Pontos Colidindo
 
-- Pegue o Retângulo que você criou na atividade [Pontos e Círculos](vector2d_pratica.md
+<!-- toc -->
+- [Parte 1 - Está contido](#parte-1---está-contido)
+  - [Draft1](#draft1)
+  - [Resultado1](#resultado1)
+- [Parte 2 - Está colidindo com outro retângulo](#parte-2---está-colidindo-com-outro-retângulo)
+  - [Draft2](#draft2)
+  - [Resultado2](#resultado2)
+- [Parte 3 - Colisão entre múltiplos retângulos](#parte-3---colisão-entre-múltiplos-retângulos)
+  - [Draft3](#draft3)
+<!-- toc -->
 
-Adapte o código do Circulo para funcionar com retângulos. Adicione ou mude algum comportamento que achar interessante.
+- Pegue o Retângulo que você criou na atividade [Pontos e Círculos](vector2d_pratica.md)
 
-## Resultado
+## Parte 1 - Está contido
 
-[resultado](https://user-images.githubusercontent.com/4747652/266114332-630d2777-b01d-48f7-baeb-a047735cc6d3.mp4)
+Faça o método `contains` da classe `Rect` recebe um ponto e retorna `true` se o ponto estiver dentro do retângulo e `false` caso contrário.
 
-## Rascunho
+Depois, utilize esse sketch para testar o método:
+
+### Draft1
 
 ```ts
 class Vector2d {
@@ -43,75 +54,197 @@ class Rect {
     }
 
     contains(pos: Vector2d): boolean {
-        // verifique se o x da pos é 
-        // maior que this.pos.x e menor que this.pos.x + this.size.x
-        // e o y da pos é maior que this.pos.y e menor que this.pos.y + this.size.y
-    }
-
-    getVertices(): Vector2d[] {
-        // crie um vetor
-        // adicione os 4 vertices do retangulo
-        // o primeiro seria this.pos
-        // o segundo seria this.pos.x + this.size.x, this.pos.y
-        // ...
-        // retorne o vetor
-    }
-
-    collideWithRect(other: Rect): boolean {
-        //para cada vertice de this
-            //se ele estiver dentro de other
-                //retorne true
-        //para cada vertice de other
-            //se ele estiver dentro de this
-                //retorne true
-        //retorne false
-    }
-
-    collideWithList(list: Rect[]): boolean {
-        //aqui é exatamente igual ao do circulo
+        //Faça seu código aqui
     }
 }
-
-let vet: Rect[] = [new Rect(100, 100, 50, 50), new Rect(200, 200, 50, 50)];
-let colorir: boolean = false;
-let aumentar: boolean = false;
 
 function setup() {
     createCanvas(600, 300);
 }
 
+let rect1 = new Rect(100, 100, 230, 170);
+
 function draw() {
     background(100);
+    let mouse = new Vector2d(mouseX, mouseY);
+    if (rect1.contains(mouse)) {
+        fill(255, 0, 0);
+    } else {
+        fill(0, 255, 0);
+    }
+    rect1.draw();
+}
+```
 
-    for (let elem of vet) {
-        if (colorir) {
-            fill(random(255), random(255), random(255))
+### Resultado1
+
+[link](https://user-images.githubusercontent.com/4747652/273888957-eef111c4-b920-4f99-824f-dc389d713848.mp4)
+
+## Parte 2 - Está colidindo com outro retângulo
+
+![Alt text](image.png)
+
+[link](https://user-images.githubusercontent.com/4747652/273901159-d80ee59e-9860-425a-8aaf-a7532e87d59b.mp4)
+
+### Draft2
+
+```ts
+class Vector2d {
+    x: number;
+    y: number;
+
+    constructor(x: number, y: number) {
+        this.x = x;
+        this.y = y;
+    }
+
+    dist(other: Vector2d): number {
+        return dist(this.x, this.y, other.x, other.y);
+    }
+
+    toString(): string {
+        return `${this.x}:${this.y}`
+    }
+}
+
+class Rect {
+    pos: Vector2d;
+    size: Vector2d;
+
+    constructor(x: number, y: number, w: number, h: number) {
+        this.pos = new Vector2d(x, y);
+        this.size = new Vector2d(w, h);
+    }
+
+    draw(): void {
+        rect(this.pos.x, this.pos.y, this.size.x, this.size.y);
+    }
+
+    contains(pos: Vector2d): boolean {
+        //Faça seu código aqui
+    }
+
+    isColliding(other: Rect): boolean {
+        //Faça seu código aqui
+    }
+}
+
+function setup() {
+    createCanvas(600, 300);
+    rectMode(CENTER);
+}
+
+let rect1 = new Rect(200, 100, 120, 100);
+let size = 150;
+
+function draw() {
+    background(100);
+    let rect2 = new Rect(mouseX, mouseY, size, size);
+
+    if (rect1.isColliding(rect2)) {
+        fill(255, 0, 0);
+    } else {
+        fill(0, 255, 0);
+    }
+    text("use scroll to increase or decrease size", 10, 10);
+    rect1.draw();
+    rect2.draw();
+}
+
+//scroll to increase ou decrease size
+function mouseWheel(event: WheelEvent) {
+    size += event.deltaY / 10;
+}
+
+```
+
+### Resultado2
+
+[link](https://user-images.githubusercontent.com/4747652/273901808-336c1097-2183-466d-9b21-1dc4fa979e57.mp4)
+
+## Parte 3 - Colisão entre múltiplos retângulos
+
+[link](https://user-images.githubusercontent.com/4747652/273925252-44225ceb-f9dc-47fa-b0ce-0e71c5a37cd6.mp4)
+
+### Draft3
+
+```ts
+class Vector2d {
+    x: number;
+    y: number;
+
+    constructor(x: number, y: number) {
+        this.x = x;
+        this.y = y;
+    }
+
+    dist(other: Vector2d): number {
+        return dist(this.x, this.y, other.x, other.y);
+    }
+
+    toString(): string {
+        return `${this.x}:${this.y}`
+    }
+}
+
+class Rect {
+    pos: Vector2d;
+    size: Vector2d;
+
+    constructor(x: number, y: number, w: number, h: number) {
+        this.pos = new Vector2d(x, y);
+        this.size = new Vector2d(w, h);
+    }
+
+    draw(): void {
+        rect(this.pos.x, this.pos.y, this.size.x, this.size.y);
+    }
+
+    contains(pos: Vector2d): boolean {
+        //Faça seu código aqui
+    }
+
+    isColliding(other: Rect): boolean {
+        //Faça seu código aqui
+    }
+
+    isCollidingList(list: Rect[]): boolean {
+        //Faça seu código aqui
+    }
+    clone(): Rect {
+        //Faça seu código aqui
+    }
+    increase(): void {
+        //Faça seu código aqui
+    }
+    decrease(): void {
+        //Faça seu código aqui
+    }
+}
+
+let elementos: Rect[] = [];
+
+function setup() {
+    createCanvas(900, 700);
+    noFill();
+    frameRate(10);
+    for (let i = 0; i < 100; i++) {
+        elementos.push(new Rect(random(0, width), random(0, height), random(50), random(50)));
+    }
+}
+
+function draw() {
+    background(100);
+    for (let elem of elementos) {
+        if (elem.isCollidingList(elementos)) {
+            elem.decrease();
+        } else {
+            elem.increase();
         }
+    }
+    for (let elem of elementos) {
         elem.draw();
     }
-
-    if (aumentar) {
-        for (let elem of vet) {
-            if (elem.collideWithList(vet)) {
-                //se elem.size.x e elem.size.y forem maiores que 0
-                //diminua 1 nos dois
-            } else {
-                //aumente 1 no tamanho em x e y
-            }
-        }
-    }
 }
 
-function mousePressed() {
-    vet.push(new Rect(mouseX, mouseY, 50, 70));
-}
-
-function keyPressed() {
-    if (key == "c") {
-        colorir = !colorir;
-    }
-    if (key == "a") {
-        aumentar = !aumentar;
-    }
-}
 ```

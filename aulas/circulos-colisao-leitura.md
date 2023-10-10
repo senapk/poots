@@ -1,6 +1,7 @@
 # Leitura
 
 <!-- toc -->
+- [Explicação](#explicação)
 - [O código final](#o-código-final)
 - [O resultado em vídeo](#o-resultado-em-vídeo)
 <!-- toc -->
