@@ -36,12 +36,13 @@
 - Aula 07 - Treinamento do 002 Busca
   - Objetivos:
     - [ ] Treinar o 002 Busca
-    - [ ] Apresentar o @054 Animal
-  - [leitura - Animal](aulas/busca_leitura.md)
-  - [prática - Carro](aulas/busca_pratica.md)
+    - [ ] Apresentar o [@animal](https://github.com/qxcodepoo/arcade/blob/master/base/animal2/Readme.md)
+  - [leitura - Animal - parte 1: entendendo os testes](aulas/busca_leitura.md)
+  - [leitura - Animal -  parte 2: conceitos importantes](./aulas/leitura_animal_2.md)
 - Aula 08 - Início do @002 Carro e Círculos em Colisão
   - Objetivos:
-    - [ ] iniciar a implementação do @002 Carro
+    - [ ] iniciar a implementação do [@carro](https://github.com/qxcodepoo/arcade/blob/master/base/carro2/Readme.md)
+    - [leitura - Carro: imprimindo mensagens e usando o return](aulas/leitura_carro.md)
     - [ ] Fazer o código do Círculos em colisão
   - [leitura - Círculos em Colisão](aulas/circulos-colisao-leitura.md)
   - [códigos - Círculos em Colisão](codigos/circulos_colisao.ts)
@@ -56,8 +57,9 @@
     - [ ] Fazer o código de movimentação do cenário
   - [códigos - Movimentando cenário](codigos/movimentando_cenario.ts)
   - [prática - Comendo estrelas](aulas/movimentando_cenario_pratica.md)
-- Aula 11 - Refazendo Calculadora em sala
-- Aula 12 - Tamagotchi - prática em sala
+- Aula 11 - Prática em sala: [@calculadora](https://github.com/qxcodepoo/arcade/blob/master/base/calculadora2/Readme.md)
+- Aula 12 - Prática em sala: [@tamagotchi](https://github.com/qxcodepoo/arcade/blob/master/base/tamagotchi/Readme.md)
+  - [leitura Tamagotchi: compreendendo Getters e Setters](./aulas/leitura_tamagotchi.md)
 - Aula 13 - fazendo animações
 - Aula 14 - apresentado o ImageX
   - [movendo setinhas](https://editor.p5js.org/sena.ufc/sketches/Xj8x9legN)

@@ -62,8 +62,6 @@ Espero que isso tenha te dado uma boa compreensão de como os arrays funcionam e
 
 ## Modificando
 
-Claro, vou listar alguns dos principais métodos para inserir e remover elementos de um array em TypeScript, juntamente com o que eles retornam:
-
 **Inserção de Elementos:**
 
 1. **push(item1, item2, ...)**: Adiciona um ou mais elementos no final do array. Retorna o novo comprimento do array.

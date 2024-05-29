@@ -64,10 +64,6 @@ Em resumo, em TypeScript, duas variáveis representam o mesmo objeto quando amba
 
 ## Criando e utilizando classes
 
-Claro, vou fornecer um texto que aborda os temas de "Definindo Classes", "Construtores" e "Métodos" em TypeScript.
-
----
-
 **Definindo Classes em TypeScript**
 
 Em programação orientada a objetos, uma classe é como um projeto que define a estrutura e o comportamento dos objetos que serão criados a partir dela. Em TypeScript, essa estrutura é uma parte fundamental do desenvolvimento de software, permitindo uma organização eficaz e uma abstração de dados. Ao declarar uma classe em TypeScript, você está criando um modelo a partir do qual os objetos serão instanciados.
