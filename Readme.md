@@ -3,42 +3,69 @@
 ![_](https://user-images.githubusercontent.com/4747652/261453336-15fd08ae-bd69-4e17-b82b-d25f62887bee.jpg)
 
 - [Acordo de convivência](aulas/acordo.md)
-- Aula 00 - Configuração de Ambiente
-  - [bash, node, vscode](aulas/config.md)
-  - [typescript](aulas/typescript.md)
-  - [tko e testes](aulas/tko.md)
-- Aula 01 - Revisão de FUP
-  - [leitura](aulas/fup_leitura.md)
-  - [revisão](aulas/fup_revisao.md)
-  - [prática](aulas/fup_pratica.md)
-- Aula 02 - Revisão do P5
-  - [leitura](aulas/p5_leitura.md)
-  - [revisão](aulas/p5_revisao.md)
-  - [prática](aulas/p5_pratica.md)
-- Aula 03 - Classes e Objetos
-  - [leitura](aulas/classes_leitura.md)
-  - [revisão](aulas/classes_revisao.md)
-  - [prática](aulas/classes_pratica.md)
-- Aula 04 - Arrays
-  - [leitura](aulas/arrays_leitura.md)
-  - [revisão](aulas/arrays_revisao.md)
-  - [prática](aulas/arrays_pratica.md)
-- Aula 05 - Classes Aninhadas
-  - [leitura - Mouse sobre círculo](aulas/vector2d_leitura.md)
-  - [códigos - Mouse sobre círculo](codigos/vector2d_circulo.ts)
-  - [prática - Mouse sobre retângulo](aulas/vector2d_pratica.md)
-- Aula 06 - Algoritmos em Vetores - Estressados Busca
-  - Objetivos:
-    - [ ] Mostrar o funcionamento do Moodle
-    - [ ] Mostrar o @000 Estressados Busca
-  - [leitura](aulas/algoritmos_vetores_leitura.md)
-  - [prática](aulas/algoritmos_vetores_pratica.md)
-- Aula 07 - Treinamento do 002 Busca
-  - Objetivos:
-    - [ ] Treinar o 002 Busca
-    - [ ] Apresentar o [@animal](https://github.com/qxcodepoo/arcade/blob/master/base/animal2/Readme.md)
-  - [leitura - Animal - parte 1: entendendo os testes](aulas/busca_leitura.md)
-  - [leitura - Animal -  parte 2: conceitos importantes](./aulas/leitura_animal_2.md)
+
+## Início <!-- group -->
+
+### Configuração de Ambiente
+
+- [ ] [bash, node, vscode](aulas/config.md)
+- [ ] [typescript](aulas/typescript.md)
+- [ ] [tko e testes](aulas/tko.md)
+
+### Introdução ao Typescript <!-- @intro -->
+
+- [ ] [Criação de variáveis](aulas/criacao_de_variaveis.md)
+- [ ] [Tipos de dados em typescript](./aulas/tipos_de_dados_em_ts.md)
+- [ ] [Declarando variáveis com tipos](./aulas/declarando_variáveis_com_tipos.md)
+- [ ] [Atividade Teórica](aulas/fup_revisao.md)
+- [ ] [Praticando conceitos](aulas/fup_pratica.md)
+
+### Revisão do P5
+
+- [ ] [leitura](aulas/p5_leitura.md)
+- [ ] [revisão](aulas/p5_revisao.md)
+- [ ] [prática](aulas/p5_pratica.md)
+
+## Poo - Programação Orientada a Objetos <!-- group -->
+
+### Classes e Objetos <!-- @classes r:intro -->
+
+- [ ] [leitura](aulas/classes_leitura.md)
+- [ ] [revisão](aulas/classes_revisao.md)
+- [ ] [prática](aulas/classes_pratica.md)
+
+### Arrays <!-- @arrays r:intro -->
+
+- [ ] [leitura](aulas/arrays_leitura.md)
+- [ ] [revisão](aulas/arrays_revisao.md)
+- [ ] [prática](aulas/arrays_pratica.md)
+
+### Agregação e Composição <!-- @agreg r:intro -->
+
+- [ ] [leitura](aulas/agregacao_composicao_leitura.md)
+- [ ] [exercícios teórico](aulas/agregacao_composicao_exercicios.md)
+- [ ] [prática](aulas/agregacao_composicao_pratica.md)
+
+### Agregação <!-- @aninhado r:agreg -->
+
+- [ ] [leitura - Mouse sobre círculo](aulas/vector2d_leitura.md)
+- [ ] [códigos - Mouse sobre círculo](codigos/vector2d_circulo.ts)
+- [ ] [prática - Mouse sobre retângulo](aulas/vector2d_pratica.md)
+
+### Algoritmos em Vetores - Estressados Busca <!-- @vetores r:arrays -->
+
+- Objetivos:
+- [ ] Mostrar o funcionamento do Moodle
+- [ ] Mostrar o @000 Estressados Busca
+- [ ] [leitura](aulas/algoritmos_vetores_leitura.md)
+- [ ] [prática](aulas/algoritmos_vetores_pratica.md)
+  
+### Trabalhando com Testes
+
+- [ ] Apresentar o [@animal](https://github.com/qxcodepoo/arcade/blob/master/base/animal2/Readme.md)
+- [leitura - Animal - parte 1: entendendo os testes](aulas/busca_leitura.md)
+- [leitura - Animal -  parte 2: conceitos importantes](./aulas/leitura_animal_2.md)
+
 - Aula 08 - Início do @002 Carro e Círculos em Colisão
   - Objetivos:
     - [ ] iniciar a implementação do [@carro](https://github.com/qxcodepoo/arcade/blob/master/base/carro2/Readme.md)
@@ -58,11 +85,19 @@
   - [códigos - Movimentando cenário](codigos/movimentando_cenario.ts)
   - [prática - Comendo estrelas](aulas/movimentando_cenario_pratica.md)
 - Aula 11 - Prática em sala: [@calculadora](https://github.com/qxcodepoo/arcade/blob/master/base/calculadora2/Readme.md)
-- Aula 12 - Prática em sala: [@tamagotchi](https://github.com/qxcodepoo/arcade/blob/master/base/tamagotchi/Readme.md)
-  - [leitura Tamagotchi: compreendendo Getters e Setters](./aulas/leitura_tamagotchi.md)
-- Aula 13 - fazendo animações
-- Aula 14 - apresentado o ImageX
+- Aula 12 - Fazendo o [@relogio](https://github.com/qxcodepoo/arcade/blob/master/base/relogio/Readme.md)
+  - [leitura Relogio: compreendendo Getters e Setters](./aulas/leitura_relogio.md)
+- Aula 13 - Prática em sala: [@tamagotchi](https://github.com/qxcodepoo/arcade/blob/master/base/tamagotchi/Readme.md)
+- Aula 14 - fazendo animações
+- Aula 15 - apresentado o ImageX
   - [movendo setinhas](https://editor.p5js.org/sena.ufc/sketches/Xj8x9legN)
   - [imagex](https://editor.p5js.org/sena.ufc/sketches/yjIx4jofg)
   - [dino](https://editor.p5js.org/sena.ufc/sketches/BA8y0TLwX)
-- Aula 15 - fazendo a budega
+- Aula 16 - fazendo o @grafite
+  - [leitura Grafite - Agregação em typescript](./aulas/agregacao.md)
+- Aula 17 - fazendo a @budega
+  - [leitura Budega - Métodos de manipulação de arrays](./aulas/leitura_budega.md)
+- Aula 18 - fazendo o @porquinho
+  - [leitura Porquinho - Enumerações]()
+- Aula 19 - fazendo o @estacionamento
+  - [leitura Estacionamento - Herança](./aulas/leitura_estacionamento.md)

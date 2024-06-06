@@ -1,0 +1,73 @@
+{
+    "reps": {
+        "fup": {
+            "url": "https://github.com/qxcodefup/arcade/blob/master/Readme.md",
+            "file": "",
+            "cache": "",
+            "quests": {},
+            "tasks": {},
+            "view": [
+                "done",
+                "init",
+                "link",
+                "todo"
+            ]
+        },
+        "ed": {
+            "url": "https://github.com/qxcodeed/arcade/blob/master/Readme.md",
+            "file": "",
+            "cache": "",
+            "quests": {},
+            "tasks": {},
+            "view": [
+                "done",
+                "init",
+                "link",
+                "todo"
+            ]
+        },
+        "poo": {
+            "url": "https://github.com/qxcodepoo/arcade/blob/master/Readme.md",
+            "file": "",
+            "cache": "",
+            "quests": {},
+            "tasks": {},
+            "view": [
+                "done",
+                "init",
+                "link",
+                "todo"
+            ]
+        },
+        "p": {
+            "url": "",
+            "file": "/home/dina/Documentos/UFC/bolsa de monitoria/poots/Readme.md",
+            "cache": "",
+            "quests": {
+                "": "e",
+                "In\u00edcio ": "e",
+                "Poo - Programa\u00e7\u00e3o Orientada a Objetos ": "e"
+            },
+            "tasks": {
+                "aulas/criacao_de_variaveis.md": "x",
+                "./aulas/tipos_de_dados_em_ts.md": "x",
+                "./aulas/declarando_vari\u00e1veis_com_tipos.md": "x",
+                "aulas/fup_revisao.md": "x",
+                "aulas/fup_pratica.md": "x"
+            },
+            "view": [
+                "done",
+                "init",
+                "todo",
+                "help_0"
+            ]
+        }
+    },
+    "local": {
+        "lang": "ask",
+        "ascii": false,
+        "color": true,
+        "updown": true,
+        "sideto_min": 60
+    }
+}
