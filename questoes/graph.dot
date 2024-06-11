@@ -1,0 +1,31 @@
+digraph diag {
+  node [penwidth=1, style="rounded,filled", shape=box]
+  "Início" -> "Configuração de Ambiente\n0 / 3"
+  "Início" -> "Introdução ao Typescript\n0 / 9"
+  "Início" -> "Revisão do P5\n0 / 3"
+  "Introdução ao Typescript\n0 / 9" -> "Classes e Objetos\n0 / 3" [style=dotted]
+  "Introdução ao Typescript\n0 / 9" -> "Arrays\n0 / 5" [style=dotted]
+  "Introdução ao Typescript\n0 / 9" -> "Trabalhando com Testes\n0 / 6" [style=dotted]
+  "Arrays\n0 / 5" -> "Algoritmos em Vetores - Estressados Busca\n0 / 5" [style=dotted]
+  "Início" -> "Modificadores de acesso\n0 / 2"
+  "Introdução ao Typescript\n0 / 9" -> "Agregação e Composição\n0 / 4" [style=dotted]
+  "Início" -> "Trabalhando com arrays\n0 / 4"
+  "Início" -> "Enumerações\n0 / 1"
+  "Início" -> "Herança\n0 / 2"
+  "Início" -> "Interface\n0 / 2"
+  "Início" -> "Atividades de desenho\n0 / 11"
+  "Configuração de Ambiente\n0 / 3" [shape=box, color=red, penwidth=3, fillcolor=lightblue]
+  "Introdução ao Typescript\n0 / 9" [shape=box, color=red, penwidth=3, fillcolor=lightblue]
+  "Revisão do P5\n0 / 3" [shape=box, color=red, penwidth=3, fillcolor=lightblue]
+  "Classes e Objetos\n0 / 3" [shape=box, color=white, penwidth=1, fillcolor=pink]
+  "Arrays\n0 / 5" [shape=box, color=white, penwidth=1, fillcolor=pink]
+  "Trabalhando com Testes\n0 / 6" [shape=box, color=white, penwidth=1, fillcolor=pink]
+  "Algoritmos em Vetores - Estressados Busca\n0 / 5" [shape=box, color=white, penwidth=1, fillcolor=pink]
+  "Modificadores de acesso\n0 / 2" [shape=box, color=red, penwidth=3, fillcolor=pink]
+  "Agregação e Composição\n0 / 4" [shape=box, color=white, penwidth=1, fillcolor=pink]
+  "Trabalhando com arrays\n0 / 4" [shape=box, color=red, penwidth=3, fillcolor=pink]
+  "Enumerações\n0 / 1" [shape=box, color=red, penwidth=3, fillcolor=pink]
+  "Herança\n0 / 2" [shape=box, color=red, penwidth=3, fillcolor=pink]
+  "Interface\n0 / 2" [shape=box, color=red, penwidth=3, fillcolor=pink]
+  "Atividades de desenho\n0 / 11" [shape=box, color=red, penwidth=3, fillcolor=pink]
+}

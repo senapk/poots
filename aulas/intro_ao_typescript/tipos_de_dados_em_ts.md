@@ -99,3 +99,23 @@ for (const elemento of numerosOuNulos) {
 ```
 
 Dessa forma, você evita erros de tempo de execução causados por tentar realizar operações matemáticas em valores nulos.
+
+## Conversão de tipos
+
+Em TypeScript, você pode realizar conversões entre tipos usando várias abordagens, dependendo da situação. Aqui estão algumas das maneiras mais comuns de realizar conversões de tipos:
+
+**Construtores de Tipo:**
+Muitos tipos primitivos, como `Number`, `String`, `Boolean`, `Array`, etc., também têm funções construtoras que podem ser usadas para realizar conversões explícitas.
+
+```typescript
+let valor: string = "123";
+let numero: number = Number(valor); // Conversão para número
+let texto: string = String(numero); // Conversão para string
+```
+
+**Operações Aritméticas e Lógicas:**
+
+```typescript
+let numero: number = +"5";
+let texto = "" + 5;
+```

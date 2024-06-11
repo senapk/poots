@@ -57,5 +57,5 @@ tko down poo 002 ts
 cd poo_002
 
 # execute o problema
-tko run draft.ts cases.tio
+tko run *.ts cases.tio
 ```

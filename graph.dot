@@ -1,0 +1,39 @@
+digraph diag {
+  node [penwidth=1, style="rounded,filled", shape=box]
+  "Início" -> "Configuração de Ambiente\n3 / 3"
+  "Configuração de Ambiente\n3 / 3" -> "Introdução ao Typescript\n9 / 9" 
+  "Início" -> "Revisão do P5\n3 / 3"
+  "Introdução ao Typescript\n9 / 9" -> "Classes e Objetos\n3 / 3" 
+  "Introdução ao Typescript\n9 / 9" -> "Arrays\n5 / 5" 
+  "Classes e Objetos\n3 / 3" -> "Trabalhando com uma única classe\n6 / 6" 
+  "Trabalhando com uma única classe\n6 / 6" -> "Modificadores de acesso\n2 / 2" 
+  "Arrays\n5 / 5" -> "Algoritmos em Vetores\n0 / 5" 
+  "Trabalhando com uma única classe\n6 / 6" -> "Algoritmos em Vetores\n0 / 5" 
+  "Classes e Objetos\n3 / 3" -> "Agregação e Composição\n4 / 4" 
+  "Trabalhando com uma única classe\n6 / 6" -> "Agregação e Composição\n4 / 4" 
+  "Modificadores de acesso\n2 / 2" -> "Agregação e Composição\n4 / 4" 
+  "Algoritmos em Vetores\n0 / 5" -> "Trabalhando com arrays\n0 / 4" [style=dotted]
+  "Agregação e Composição\n4 / 4" -> "Trabalhando com arrays\n0 / 4" [style=dotted]
+  "Trabalhando com arrays\n0 / 4" -> "Enumerações\n0 / 1" [style=dotted]
+  "Trabalhando com arrays\n0 / 4" -> "Herança\n0 / 2" [style=dotted]
+  "Herança\n0 / 2" -> "Interface\n0 / 2" [style=dotted]
+  "Revisão do P5\n3 / 3" -> "Classes aninhadas\n0 / 3" 
+  "Classes e Objetos\n3 / 3" -> "Classes aninhadas\n0 / 3" 
+  "Revisão do P5\n3 / 3" -> "Arrays com p5\n0 / 8" 
+  "Arrays\n5 / 5" -> "Arrays com p5\n0 / 8" 
+  "Configuração de Ambiente\n3 / 3" [shape=box, color=green, penwidth=3, fillcolor=lightblue]
+  "Introdução ao Typescript\n9 / 9" [shape=box, color=green, penwidth=3, fillcolor=lightblue]
+  "Revisão do P5\n3 / 3" [shape=box, color=green, penwidth=3, fillcolor=lightblue]
+  "Classes e Objetos\n3 / 3" [shape=box, color=green, penwidth=3, fillcolor=pink]
+  "Arrays\n5 / 5" [shape=box, color=green, penwidth=3, fillcolor=pink]
+  "Trabalhando com uma única classe\n6 / 6" [shape=box, color=green, penwidth=3, fillcolor=lightgreen]
+  "Modificadores de acesso\n2 / 2" [shape=box, color=green, penwidth=3, fillcolor=lightgreen]
+  "Algoritmos em Vetores\n0 / 5" [shape=box, color=red, penwidth=3, fillcolor=lightgreen]
+  "Agregação e Composição\n4 / 4" [shape=box, color=green, penwidth=3, fillcolor=lightgreen]
+  "Trabalhando com arrays\n0 / 4" [shape=box, color=white, penwidth=1, fillcolor=lightgreen]
+  "Enumerações\n0 / 1" [shape=box, color=white, penwidth=1, fillcolor=lightgreen]
+  "Herança\n0 / 2" [shape=box, color=white, penwidth=1, fillcolor=lightgreen]
+  "Interface\n0 / 2" [shape=box, color=white, penwidth=1, fillcolor=lightgreen]
+  "Classes aninhadas\n0 / 3" [shape=box, color=red, penwidth=3, fillcolor=cyan]
+  "Arrays com p5\n0 / 8" [shape=box, color=red, penwidth=3, fillcolor=cyan]
+}
