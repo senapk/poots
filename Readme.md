@@ -30,7 +30,7 @@
 - [ ] [Atividade teórica](aulas/revisao_p5/p5_revisao.md)
 - [ ] [Atividade prática](aulas/revisao_p5/p5_pratica.md)
 
-## Classes, objetos e arrays <!-- group -->
+## Técnicas e conceitos <!-- group -->
 
 ### Classes e Objetos <!-- @classes r:intro -->
 
@@ -45,6 +45,19 @@
 - [ ] [Iterando sobre arrays](aulas/arrays/iterando_sobre_arrays.md)
 - [ ] [Atividade teórica](aulas/arrays/arrays_revisao.md)
 - [ ] [Atividade prática](aulas/arrays_pratica.md)
+
+### Algoritmos essenciais <!-- @essenciais r:arrays r:carro -->
+
+- [ ] [Atividade - Stressados 1: Operações de @busca](https://github.com/qxcodepoo/arcade/blob/master/base/busca/Readme.md)
+- [ ] [Leitura - Retornando valores absolutos em typescript](./aulas/retornando_valores_absolutos.md)
+- [ ] [Leitura - Conteúdo em vídeo: Resolução do @contagem](https://www.youtube.com/watch?v=yEks2RnwgeA)
+- [ ] [Atividade - Stressados 2: Operações de @contagem](https://github.com/qxcodepoo/arcade/blob/master/base/contagem/Readme.md)
+
+### Algoritmos úteis <!-- @uteis r:essenciais opt -->
+
+- [ ] [Leitura - Métodos de manipulação de arrays em typescript](./aulas/metodos_de_manipulacao.md)
+- [ ] [Atividade - Stressados 3: Operações de @manipulacao](https://github.com/qxcodepoo/arcade/blob/master/base/manipulacao/Readme.md)
+- [ ] [Atividade - Stressados 4: Operações @especiais](https://github.com/qxcodepoo/arcade/blob/master/base/especiais/Readme.md)
   
 ## Trabalhando com Testes <!-- group -->
 
@@ -53,40 +66,47 @@
 - [ ] [Leitura - Entendendo os testes](aulas/busca_leitura.md)
 - [ ] [Leitura - Conceitos importantes](./aulas/leitura_animal_2.md)
 - [ ] [Atividade - @animal - nasce, cresce, morre](https://github.com/qxcodepoo/arcade/blob/master/base/animal2/Readme.md)
+
+### Construindo seu primeiro projeto <!-- @carro r:testes -->
+
 - [ ] [Leitura - Imprimindo mensagens e usando o return](aulas/leitura_carro.md)
+- [ ] [Treinando para o @carro](./aulas/treino_carro.md)
 - [ ] [Atividade - Se não pode comprar um, construa seu primeiro @carro](https://github.com/qxcodepoo/arcade/blob/master/base/carro2/Readme.md)
+- [ ] [Feedback do @carro](teste.md)
+
+### Exercitando um pouco mais <!-- @calculadora r:carro -->
+
 - [ ] [Atividade - Cuidado com a bateria da @calculadora](https://github.com/qxcodepoo/arcade/blob/master/base/calculadora2/Readme.md)
 
 ### Modificadores de acesso <!-- @acesso r:testes -->
 
 - [ ] [Leitura - Compreendendo Getters e Setters](./aulas/leitura_relogio.md)
+- [ ] [Treinando para o @relogio](./aulas/treino_relogio.md)
 - [ ] [Atividade - Garanta uma hora válida no @relogio](https://github.com/qxcodepoo/arcade/blob/master/base/relogio/Readme.md)
 
-### Algoritmos em Vetores <!-- @vetores r:arrays r:testes -->
+## Agregação e composição <!-- group -->
 
-- [ ] [Atividade - Stressados 1: Operações de @busca](https://github.com/qxcodepoo/arcade/blob/master/base/busca/Readme.md)
-- [ ] [Leitura - Conteúdo em vídeo: Resolução do @contagem](https://www.youtube.com/watch?v=yEks2RnwgeA)
-- [ ] [Atividade - Stressados 2: Operações de @contagem](https://github.com/qxcodepoo/arcade/blob/master/base/contagem/Readme.md)
-- [ ] [Atividade - Stressados 3: Operações de @manipulacao](https://github.com/qxcodepoo/arcade/blob/master/base/manipulacao/Readme.md)
-- [ ] [Atividade - Stressados 4: Operações @especiais](https://github.com/qxcodepoo/arcade/blob/master/base/especiais/Readme.md)
-
-### Agregação e Composição <!-- @agreg r:classes r:testes r:acesso -->
+### Entendendo agregação <!-- @agreg r:classes r:testes r:acesso -->
 
 - [ ] [Leitura - Agregação em typescript](./aulas/agregacao.md)
 - [ ] [Atividade - Porta minas com um @grafite](https://github.com/qxcodepoo/arcade/blob/master/base/grafite2/Readme.md)
+
+### Agregação: atividades extras <!-- @agreg_extras r:agreg -->
+
 - [ ] [Atividade - Passeando no parque de @motoca](https://github.com/qxcodepoo/arcade/blob/master/base/motoca2/Readme.md)
 - [ ] [Atividade - Alimente, brinque e mate o @tamagotchi](https://github.com/qxcodepoo/arcade/blob/master/base/tamagotchi/Readme.md)
 
-### Trabalhando com arrays <!-- @arrays2 r:vetores r:agreg -->
+### Vetores de nulos <!-- @arrays2 r:essenciais r:agreg -->
 
 - [ ] [Leitura - Métodos de manipulação de arrays](./aulas/leitura_budega.md)
 - [ ] [Atividade - Gerencie a fila de espera e atendimento da @budega](https://github.com/qxcodepoo/arcade/blob/master/base/budega2/Readme.md)
+
+### Vetores: atividades extras <!-- @vetores_extras r:arrays2 -->
+
 - [ ] [Atividade - Gerenciando reservas e cancelamentos de uma sala de @cinema](https://github.com/qxcodepoo/arcade/blob/master/base/cinema2/Readme.md)
 - [ ] [Atividade - Comprando comida em uma máquina de @junkfood](https://github.com/qxcodepoo/arcade/blob/master/base/junkfood2/Readme.md)
 
-### Enumerações <!-- @enum r:arrays2 -->
-
-- [ ] [Atividade - Guardando moedas e itens em um @porquinho](https://github.com/qxcodepoo/arcade/blob/master/base/porquinho2/Readme.md)
+## Polimorfismo <!-- group -->
 
 ### Herança <!-- @herança r:arrays2 -->
 
@@ -114,7 +134,11 @@
 - [ ] [Códigos - Movimentando cenário](codigos/movimentando_cenario.ts)
 - [ ] [Prática - Comendo estrelas](aulas/movimentando_cenario_pratica.md)
 
-
 - [ ] [movendo setinhas](https://editor.p5js.org/sena.ufc/sketches/Xj8x9legN)
 - [ ] [imagex](https://editor.p5js.org/sena.ufc/sketches/yjIx4jofg)
 - [ ] [dino](https://editor.p5js.org/sena.ufc/sketches/BA8y0TLwX)
+
+### Padrões de projeto <!-- @padroes r:interface -->
+
+- [ ] [Atividade - Guardando moedas e itens em um @porquinho](https://github.com/qxcodepoo/arcade/blob/master/base/porquinho2/Readme.md)
+- [ ] [Atividade - Padrão Composite e Decorator - @produto](https://github.com/qxcodepoo/arcade/blob/master/base/produto2/Readme.md)
